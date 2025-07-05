@@ -2,7 +2,7 @@ import { ethers } from 'ethers';
 import axios from 'axios';
 import 'dotenv/config';
 
-const INVITE_CODE = process.env.INVITE_CODE || 'K7R9WRSatDbAZIbF';
+const INVITE_CODE = process.env.INVITE_CODE || 'ZfcLFkTf2LzoJ3wQ';
 const BASE_API = 'https://api.pharosnetwork.xyz';
 
 export async function loginPharos(PK) {
